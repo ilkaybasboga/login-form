@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+font-family: 'Mulish', sans-serif;
+}
+
+h1{
+    margin: 5rem;
+}
+.label-1 {
+    box-sizing: border-box;
+    padding:0 53px 10px 0px ;
+    margin:5px 0px 5px 0px;
+    
+}
+.label-2 {
+    box-sizing: border-box;
+    padding:0 50px 10px 0px ;
+    margin:5px 0px 5px 0px;
+
+}
+.label-3 {
+    box-sizing: border-box;
+    padding:0 15px 10px 0px ;
+    margin:5px 0px 5px 0px;
+
+}
+form{
+    border-radius: 27px;
+    background: #abf7f7;
+    box-shadow:  -20px -20px 24px #7db4b4,
+                 20px 20px 24px #d9ffff;
+    display: inline-block;
+    padding: 3rem;
+    
+}
+.input {
+    margin-bottom:25px;
+    border: 2px solid rgb(77, 59, 59);
+    border-radius: 10px;
+    height: 40px;
+    background-color: burlywood;
+    
+}
+.btn {
+    background-color: rgb(174, 117, 228);
+    margin-top: 10px;
+    width: 100px;
+    border: 2px solid rgb(77, 59, 59);
+    border-radius: 10px;
+    height: 40px;
+    
+}
+body{
+    text-align: center;
+    background-image:url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);
+       
+  }
+
+  .btn:hover {
+    color: white;
+    background-color: chocolate;
+  }
+  .btn:visited {
+    color: blue;
+    background-color: black;
+  }
+
+  .input:focus {
+    background-color: rgb(134, 239, 20);
+  }
+
+  label:focus {
+    background-color: blue;
+  }
